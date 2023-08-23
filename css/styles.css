@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body{
+    background-image:url('/images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    
+}
+
+
+h1, h3{
+    font-weight: 600 !important;
+    font-size: 40px;
+    color: hsl(210, 10%, 33%);
+   }
+
+p{
+    color: hsl(201, 11%, 66%);
+    font-size: 17px;
+   }
+   .btn{
+    color: white !important;
+
+   }
+
+
+   .buttons .down-btn1{
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 30px;
+   }
+   .buttons .down-btn2{
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 30px;
+   }
+   .buttons .btn:hover {
+       color: black !important;
+       }
+
+       .section1,
+.section2, .section4, .section7 {
+  
+  margin: 0 auto;
+  padding: 1% 25%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flow-root;
+}
+
+.section1 img,
+.section1 h1,
+.section1 p,
+.section1 .buttons {
+  padding-top: 10px;
+}
+
+.section3{
+    display: flex;
+    gap: 100px;
+    margin-top: 80px;
+}
+
+.section3 img{
+    margin-left: -30px;
+}
+
+.section3 div{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+main > img{
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section5{
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.section5 .row{
+    padding-top: 20px;
+}
+
+.section6{
+    text-align: center;
+   
+}
+
+.section6 img{
+    padding: 10px 50px;
+}
+
+footer{
+    background-color: hsla(202, 12%, 87%, 0.356);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0 1rem 0;
+    margin-top: 4rem;
+
+}
+
+.logo{
+    width: 4%;
+}
+.logo img{
+    width: 100%;
+}
+
+.links{
+    
+    display: flex;
+    
+    }
+
+.links .innerlinks{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    
+}
+
+.links .innerlinks a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+.links .innerlinks a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.icons img:hover{
+    filter: invert(59%) sepia(60%) saturate(526%) hue-rotate(122deg) brightness(92%) contrast(85%);
+    cursor: pointer;
+}
+
+
+  
